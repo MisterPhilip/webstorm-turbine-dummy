@@ -130,7 +130,7 @@ var turbine = {
     /**
      * Returns the settings object that was last saved from the extension configuration view
      *
-     * @returns {{}}
+     * @returns {{}|undefined}
      */
     "getExtensionSettings": function( ) { },
 
