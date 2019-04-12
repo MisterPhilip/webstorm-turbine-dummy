@@ -1,8 +1,8 @@
-# Adobe Launch "turbine" dummy for IDEs
+# Adobe Launch `turbine` type hinting dummy for IDEs
 
-Adding code autocomplete and documentation for the [Turbine library](https://github.com/Adobe-Marketing-Cloud/reactor-turbine) (Adobe Launch's rule engine) to 
+This repository adds code autocomplete and documentation for the [Turbine library](https://github.com/Adobe-Marketing-Cloud/reactor-turbine) (Adobe Launch's rule engine) to 
 [JetBrain's Webstorm](https://www.jetbrains.com/webstorm/). While this was specifically created for WebStorm, other 
-IDEs should be able to accept this dummy file - the method of adding it to the IDE may be different.
+IDEs should be able to accept this dummy file - the method of adding it to the IDE may be different. The easiest way would be to add the file to your code base, but add a `.gitignore` rule to make sure you're not including it in your repository. 
 
 An example of hinting at the parameters for the `turbine` methods:
 
